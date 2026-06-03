@@ -1,3 +1,88 @@
---// This file was created by XHider v1.2 [https://discord.gg/hATuHQaQRb]
+-- [[ WATER TESTER: FIX RESPAWN (TOMBOL TIDAK HILANG) ]] --
 
-([[This file was protected with Xhider Obfuscator]]):gsub(".+",function(D)_qF4CzA=D end)return(function()local E,J do local D=math.floor local L=string.char local K=string.byte local function c(L,K)local c=0x0 for X=0x0,0x7,0x1 do local G=L/0x2+K/0x2 if G~=D(G)then c=c+0x2^X end L=D(L/0x2)K=D(K/0x2)end return c end local X={0xD5,0x50;0x71;0xCF}local function G(L,c)local X={}local G=0x1 local t=#L while G<=t do local c=0x0 local x=0x5 if G+0x4>t then x=(t-G)+0x1 for D=0x1,x,0x1 do c=c*0x55+(K(L,(G+D)-0x1)-0x21)end for D=x+0x1,0x5,0x1 do c=c*0x55+0x54 end else for D=0x0,0x4,0x1 do c=c*0x55+(K(L,G+D)-0x21)end end local A=D(c/0x1000000)%0x100 local d=D(c/0x10000)%0x100 local U=D(c/0x100)%0x100 local r=c%0x100 X[#X+0x1]=A X[#X+0x1]=d X[#X+0x1]=U X[#X+0x1]=r G=G+(x==0x5 and 0x5 or x)end for D=0x1,c,0x1 do X[#X]=nil end return X end local t=([=[XHD:qbV:YJN+LZoemY^Y]'fLVJlRL\g.ukTf!SRU,`CTo`uG4Yr)XPRPG\jVDAdq\g#NuER2*C"fe^jER3$/ER**2`Qcq6E6g79EJr@DER303HdC5=Ia?P@C!Y=+<R92l6I41Y1XFTJ,L=n:&^T!(!701lo?Yr`jNl@Qe'HQ@gX"DHaj8L6Yg:irUX.IeXO#EnR*X;ZM9j^KE6d!1HHt&;@F!D"ABr_%CX1I,<mK5l6-e"W8C#a^1X=NI.F-I?*7!)2$-q'tp!2)aps.Ddk0DLRgs4GHaNi=4[a*E"Xj5HnPg7fUK$MnCF3W63IEg;=D9^U-:sINe?d7+t8'TR\1sOQI,L+b8.a?L?!6s%j$dI3us39(jd`p<=_9LM,c-=d8Yg(]p^!5)(Wm0'jOj2EQR*F/XK?_qCMTs[JFj/B4I*C,;B[#"'=j5Dm&'WR#K$Dh_g.BZWpQ#8qE6m'F,7>X[5<\BJF3iBs6`]SO-hVlRBkEdnJ#t>`0j^FKWKQ+[F3iC;E6m(60,:Y>E6m&r?iFCoO)bEbAC&g*AC&fl3rpgQEmN9H"2W(q,F)&HFjJTu9+r<CM=Pj.E6k+tFO/JfG;_Z'E6f/rq[5b/E6i7b@FNE["f2Te4j>VWiH]WhF3iC;F3iC9&K3[q5Eth_EmN9H,@!JMCY*]NGL+g"<Lpl%,:@RNE6f/=FO/Jfl1*1>E6g_I;e=o*E6iXmCK'6Q[?PEdO%4Ele$Ql3F3iC;EmN:8h'6Ru_js?JF3iBYG0e]j^N?`@>qRQ'f3],3F3iC;FjJU;f-39Ab?YY.FjJSSNMbNRH-b$$JW2Sc`@nG5E6gglGgFnj053ooE6fo2L\KjIE6l/__s1Cb_0/b;=nF3A59TiFF3iC;FO/L:Kt*lCX^AZhFO/JR0t+3+HdC6&Ha>g3&_'8fE6mB_HI(+lYrjKRE6fc.J]qdFE6mJ/\OSR<Kau=erNm48DoFVVF3iC;GL+g=_fm*MGL+f$m=ZiK:YX:Xqp3enb9OcDIF$GS;.S!pI*^>p939*u'q)+EJ'ZZ*a[Y1cV,caGl1LbX<AJr)GL+dgGL+c\Ia?PdHdC5<(Ke2sGL+c\@F*K!kNtQ2];iWqGL+c\@*dBQFO/H4>A9m'Oj._Aqp3gY9?#*(GL+eU?0rPPA'`\cgL5:'EI-mfE6mZgHI(+lojr=bE6nQ`(]Q')E6k9FgE(ABAUJ??Q]92Lf?`!HF*0$UIF$GS+^u4/I*^>p',eRNTrh@;@aETSGL+g"a58$;D;J=[lQC3TNV<pC,:9)]A"t8jF3iC;G0e^<^AuI,G0e]\Ia?PdA'`\$;jK`!G0e]\A^AnKAC&e:9<df*I*^>pX5OcYNEQ.#B@#+MB$]"LB@#+MC!Y=iD3BAG1J6]o\+9e2HXbQ%LMF*DG0e]\B[>4NAC&e:dijlrI*^>pV).2uZ'?#FCX:OQB@#+MC<tFPB@#+gX)n19M3p*ce&=0OV9Lqp;4CA2G0e]\D9paSCsUX-+lC2eG0e]\DpQsUDU6jD%7h^c;:!dEPr3UJ2^bbM:s[[6C!Y=OC!Y=iAIZ<M-,^D^"3YrsL!T6a;fhHXG0e]\;pX!F[JKAgSZ56HL#*E:b8!m7Ih4C5eSN0GF3iC;H-b$?0f'4'n_`u*D^MlPWu%K-L#F>"F3iC;GgFp>q*:SeEmN9=HdC6lG0e]\;U<mFpOC*thgbRRHdC6&.Aub73F,Z'E6lUI<R92G"gf`sE6i0rX4`^TE6f-_@on4r4iT.pDr6W-4oX6dH-au%A^e\&H-b"+)uk*2FjJQZ<6s*HLHhJmpWL;K6h\$3F3iC;E6m(6D+Q>/E6m&radXY>PL4()B[5./CR?Qj?ZHD$H-au%_&`d@29s`Q);qOEG0ec^D9paS=3oDm221)?G0ec^DpQsUDU6jDPs@ua;:!dE98P=f0.)d&C!Y=O:s[[6C!Y=i6_1+P]6#mr9-L\MUIO`K*=3)&GgFu`<mT=GEmN?Z=jPWM_q?7NDsn8PFjJTun$<Z)odn3&E6f;A<R92G2nf,,E6n9X'CO-`E6iCf#JOINMsm$/06q,!_eeE5P0VTY_do%^G0ec^D9paSCsUX-_e(dUG0ec^DpQsUDU6jD2.`%p;:!dEmA-B?K3b6o:s[[6C!Y=OC!Y=ijT/E[7?fq$F]s>';9QsTT7U"kGgFu`<mT<JJW/8Dh*o$<"4#Ft@qG&WGgFr_<mT<J8Z[gddn4J;M]X>Eo9nYWE6g[h=O5MJc\TOXE6nQ`GIWGHE6g0'B19UNPKpeiGgFr_<mT<6J[Y,FOXuhhm>Nt&"4#H_gL^<4FjJZ]<6s*Hq3MMM#IkfPXle8XF3iC;E6m(6UN6FbE6m&rWAjP3PKq]Z591m4[>90O>L1i1e)P?3+l)\=E6m#M,Aj-7os7QoPAA;YE6mB_>0k_LdH:TLE6joNl2M/0E6gH/Z/b!,4`fJ?fi%kJ@mBAIn[7N>j&jNc+ZrU!+ns+`Q1nD[aj/FYF3iAe\]kgkE6m'V?-h%OXc4#tF3iC9`Q'Io>;qerF3iAQP:!#G>gLr\D,&RY*AGq[E6lIE?dI7QH!=AgE6j3:ZS.%NE6m,%bNNRG.6[bo5M(#<`6Qn6)>l8>F3i?X?I./Q8,$"Z)*@:W:SUGZ`6QoZRG)^PhrR$#jNc:j_aUi[E6m#MK@f[96-n)Aa6oStbG*Q*E6mlmHI(+l;kC!,E6m^HV9HRiE6l5as6`qqKBhtgBD""?Oj;KX'8aTUE6m-X6-n)576\I&O_]eq5gRtkh70G+6dO;7iE@=F6I426CPC)c=nKRkLSUI<<u!5'E6gdk7F0L7&S5SmE6ecgRFX86E6l5a<NZ=:n]t9,9i28sOj;KI0>63@PKq]Kmja+4M\[*3T8r!oE6ls8E6m)#W=h;BFjJW\<6s*H3I(UbV5p9eofMYbF3iC;F3iC93=ausF3iAu_9,u-A&gOhEm<.6EP0iOF3iAQ+cN"77*jDDk=7Q1.9%f8E6m!THI(+l]:B0EE6fc.^NRj>E6f']of(D.rE:(#B*8i/Z#I\CG0SQ<*@'C[+W*E/@6K_%F3iAQ43`=u6-n)AchI,1j`HY'E6m3ZHI(+l*ODdaE6kqk<BQ?\E6gl;cc>M7:R%l>+3:DY2.CoSF3iC;EmN:87;(i6EmN8t-cV_<6I"%]\!ug8EmN5O@q/\a5gRtkNtQ5M6dO;7"kct!6I426RIIGUBDk5Y2<SEGF+YMOE6lsS7F0L7cd"KfE6kD\krV$GE6l_oq60g5)*?J@Q/'(P6I"'Hq,V3O>L1i1+XJW(AbSjIF3iAQK:Ws@l])bY;5,<RE6mTe>0k_LEF7K=E6gqO]<bWXE6j:*LRdnp%@m9TPr%+kYO4sJGn;"V:"%"@;njaYqZZm%@gCQ`*R3,VF3iAe^C#EmE6m'V?-h%O.@i\+F3iC9TCDI<=g`_.F3iAQRt]sG>gLr\SQE&n`Nr)QE6gRe?dI7Q+&aI'E6h+Th`n4\E6nFJ8^Mhl_-thTdC<-9(sUT3on*h*F3i?X?I./sgKpIIRl0:t2h%\((sUUW%3Y43A'tMZ36fugF5p$]nPX8SF3iBY7*jD8Sb^frrV+&(;`h:,F3iC;FjJU;UYaGKFjJT[8'f_-7aKUqoa,8QI*^>p2&IJ%cYh3RB@#+MB@#+MB@#+g4)GB'chfNb*I?EHi>][1%5C69V1<?'8^GqI9aUt"m@?(UF3iC;FO/L:pRqlYV+kuPB$]"fLNJm\>r#K'F3iC;GL+g=J%l??FjJT[8C,i9FjJT[8C,h<q3;V87aKUqPB"H]I*^>pV^ciT0tc4^B@#,XFO/M%q;p>[E6m&S,QCheB@#+g"&&anTm0&n7iaVtd8PVT=3,F3FjJT[8C,h<O+s$D9@).?a)5nHGL+ghE6m&S>6k9M.j!X-s3RcAM37_U0,U9^*1P:?a/'cBgM/B`9$c%=&W.i0iC8!4:!_@@*QjgHq<&rD9[D7?!Oba!8!.P.:X@RB'70dV$dPVk:=%IA%38,<e)-.,1!eC$fa3s?Hf\[r/Jn9]2>4e,F3iC;E6m(6AMo\$E6m'VEmN9H[gutj0[J:$>AqT7IqQMX3KM&<K$DhH4#r@D1XFT^3UTW-nZIRfEmN9Hfk_398(F/P1=+L2'kJZgm<%V2E6jqo2:'f'3U7\'E6kqk*Ou.fE6h>H/HKhNJ$7gkAJDNLDrM]%76P`"e`'?i))H&gX]%af@7g.Y"&p:U4hmUZb@gMIK$Dicn[kYpFO/K6!N`Xj*R</2ER307ER3/o&>HC*G0e]8+euCn'YUA?HdC5=2QEGQ'YU8%&usJcER3/:"JLQ-"1c'#'[PW4ER1%;'!AbF*NlJ$"4,b!ER0>$&@See2S-OtIF$G?-Eb!,2k[&^)5ar$EPp='EL=*Y'YT&T!kXUA(sgr5ER0h/+01Sc"2(<@)5ar$EQ?U+EJD(M"g5Hn'[P?,ER26S#1)($ER0@q"0/Rh2S-OtFjJT75H_LREPp='ELj<Y'YBet,/:K4+4&D4ER0=n"0/sYEQH[,ELX0W"c]3>EQ-I)ELX0\"c]0#"e`J(FjJT7,,VP$EQZg.ELN"M*<"A`ER304kKh[TE;e<`ER3H;ER0>'!iDYO*hh/'OjDQSER306:3K=QkZ1C"EQcm/ELX0\"jb+`ER29]!kYg'"n0/c*M`(B5)GJ"@F*J#1Tn/J(;7:*+01\l*MB<?EQQa-EK%Ik*kg]4G0e]8(VRCC,D_[`\^/f&EQ6O*EJp_L(9"Sq*NIXUER3/U*kJ4+1V08**hhX.*N$8,EQH[,EK%Im+0)apEQ6O*EK%Rc"0T'X'YW$^ER3/q+2":%+1q2-(o+WV;1P-4FjJT74eTA/EQ6O*EJLbQ"1u$"&A-IrER3/L(qd:A+/,np"jbOlER1I9(qleCHI(,<2QEGa)5ar$"0/t1F3iB5EQ?U+EK.=M'VD`V"jbarER1."0[JWQER0q*+,mcn*N$)!EQ?U+EJL2M&>?Zq(!k9(ER0_1"JXF4ER3/P"JW7e*i?1E"g4OV-+9X-EQcm/EJq%U(!kT1ER0@s"e;8@"fdYJ&?WK#(!jiqER11%*3Qn<(orEV*kR+\"2!)cER3/>'Vi5q(qZkGG0e]8-`XU#*kg]5?-^tsEQQa-EK$)*&>HC*HdC5=4eTAJ-`XU#*kg(J)sVEA1E;:Oa,Pk9EfMI$$IknKEQjc#MK/$409=ZrM@YK96-n([1DptL%#H\MEQH[,EM'cr&uqHYEQ-I)EML*"'tg4a(nn63+OAS7)7uRb!qlD>(8dcb"KhPW*hrK6*K.Qo)2,[f(uToi(o-pO&@hQ\'WIsZ)61&#!oURC(npd/)5+T#1Tn<=0Yb7A*f@Qc*ilLZ"LaXS*m`82ER11$"i$3X"jg(ccabkH\#%SNER22G:iXh1:iXgS4oqgp44$fDca,_TTVp16ER2'Q&A8]=])local x=G(string.sub(t,0x5),0x2)local A={}J=setmetatable({},{__index=A,__metatable=nil})function E(D)local K=A if not K[D]then local G=D+0x1 local t=((c(x[G],X[0x1])+c(x[G+0x1],X[0x2])*0x100)+c(x[G+0x2],X[0x3])*0x10000)+c(x[G+0x3],X[0x4])*0x1000000 G=G+0x4 local A={}for D=0x1,t,0x1 do local K=(D-0x1)%0x4+0x1 A[D]=L(c(x[(G+D)-0x1],X[K]))end K[D]=table.concat(A)end return D end end if _qF4CzA~=J[E(0x0)]then return end local D,L,K,c,X,G,t,x,A,d,U,r,W,b,B,o,V,u,T,P,C,N K=string[J[E(0x32)]]d=J[E(0x3A)]r=function(D)local K={}for L=0x0,0x7,0x1 do K[L+0x1]=d[D+L]end local c=0x1 local X=K[0x2]%0x10 for D=0x3,0x8,0x1 do X=X*0x100+K[D]end if K[0x1]>0x7F then c=-1 end local G=(K[0x1]%0x80)*0x10+P(K[0x2]/0x10)if G==0x0 then return 0x0 end X=(L(X,-52)+0x1)*c return L(X,G-0x3FF)end L=math[J[E(0x10B9)]]N={}W=function(L,K,x,W)local b={[0x0]=W}local B={}local o=0x0 local u,T,P,C,a,i T=V+(L-0x1)*0x4 u=d[T]while true do P=true while u==0x84 do C=b for D=0x1,d[T+0x3],0x1 do C=C[0x0]end B[o+0x1]=C[D(T+0x1,0x2)]o=o+0x1 L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x44 do o=o+0x1 B[o]=G(t[D(T+0x1,0x3)],x,b)L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xFB do C=b for D=0x1,d[T+0x3],0x1 do C=C[0x0]end C[D(T+0x1,0x2)]=B[o-0x1][B[o]]B[o]=nil o=o-0x1 L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x29 do B[o+0x1]=B[o]o=o+0x1 L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xBB do B[J[E(0x10C2)]]=o o=0x0 B={[0x0]=B}L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x7B do B[o]=B[o-0x1][B[o]]L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xAC do if o>0x0 then C=B[o]else C=nil end B=B[0x0]o=B[J[E(0x10C2)]]+0x1 B[o]=C L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xB5 do o=o+0x1 B[o]=K[D(T+0x1,0x2)]L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x24 do i=D(T+0x1,0x3)o=o+0x1 B[o]=N[i]if not B[o]then C=c[i]+A a=d[C]if a==0x0 then a=D(C+0x1,0x4)B[o]=J[E(0x10C7)]for D=0x1,a,0x1 do B[o]=B[o]..U(d[(C+D)+0x4])end elseif a==0x3 then B[o]=r(C+0x1)elseif a==0x1 then B[o]=D(C+0x1,0x4)elseif a==0x2 then B[o]=-D(C+0x1,0x4)end N[i]=B[o]end L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xC7 do o=o+0x1 B[o]={}L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x17 do b=b[0x0]L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x3A do B={[0x0]=B[0x0]}o=0x0 L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x6B do B[o]=not B[o]L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xAE do L=D(T+0x1,0x3)-0x1 L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xD1 do B[o+0x1]=true o=o+0x1 L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x4C do B[o-0x1]=B[o-0x1]*B[o]B[o]=nil o=o-0x1 L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xB4 do if B[o]then L=D(T+0x1,0x3)-0x1 end B[o]=nil o=o-0x1 L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x9F do B=B[0x0]o=B[J[E(0x10C2)]]L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x49 do C=D(T+0x1,0x2)B[o],B[o-C]=B[o-C],B[o]L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xF9 do o=o-0x1 B[o+0x1]=nil L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xB9 do B[o]=-B[o]L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x56 do C=B[o]a={C[0x1](C[0x2],C[0x3])}if a[0x1]~=nil then C[0x3]=a[0x1]o=o+0x1 B[o]=a b={[0x0]=b}L=L+0x1 end L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xD2 do o=o-0x1 B[o],B[o+0x1]=B[o][B[o+0x1]],nil L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x3E do B[o+0x1]=nil o=o+0x1 L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xB3 do C,B[o]=B[o],nil for D,L in ipairs(C)do B[o]=L o=o+0x1 end o=o-0x1 L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x9 do C=b for D=0x1,d[T+0x3],0x1 do C=C[0x0]end C[D(T+0x1,0x2)]=B[o]B[o]=nil o=o-0x1 L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x47 do B[J[E(0x10C2)]]=o B={[0x0]=B;[0x1]=B[o]}o=0x1 L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x1F do o=o-0x2 B[o][B[o+0x1]]=B[o+0x2]B[o+0x1],B[o+0x2]=nil,nil L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xF3 do B[o+0x1]=false o=o+0x1 L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x34 do B[o]=x[B[o]]L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xDE do C={}for D,L in ipairs(B)do C[D]=L end o=0x1 B={[0x0]=B[0x0],[0x1]=C}L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xBC do o=o-0x1 B[o],B[o+0x1]={B[o](X(B[o+0x1]))},nil L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x5A do B[o]=B[o][0x1]L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0xB1 do B[o-0x1]=B[o-0x1]+B[o]B[o]=nil o=o-0x1 L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x6 do b={[0x0]=b}L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]P=false end while u==0x96 do return{}end if P then L=L+0x1 T=V+(L-0x1)*0x4 u=d[T]end end end t={}V=0x4 C=function()d=B(d)T()return(G(t[0x1],o()))()end X=table and table[J[E(0x10CB)]]or unpack P=math[J[E(0x10D5)]]o=getfenv or function()return _ENV end B=function(D)local L={}for c=0x1,#D,0x1 do L[c]=K(D,c)end return L end G=function(D,L,K)return function(...)return X(W(D,{...},L,K))end end T=function()x=D(0x1,0x3)t={}for L=0x0,x-0x1,0x1 do t[L+0x1]=D(V+L*0x3,0x3)end V=V+x*0x3 u=D(V,0x3)for L=0x0,u-0x1,0x1 do c[L+0x1]=D((V+0x3)+L*0x4,0x4)end V=(V+u*0x4)+0x6 b=D(V-0x3,0x3)A=V+b*0x4 end D=function(D,L)local K=0x0 local c=0x1 for L=0x0,L-0x1,0x1 do K=K+d[D+L]*c c=c*0x100 end return K end c={}U=string[J[E(0x10DE)]]return C()end)()
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local LocalPlayer = Players.LocalPlayer
+local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
+
+-- 1. Setup GUI (PENTING: ResetOnSpawn = false agar tidak hilang saat mati)
+local ScreenGui = PlayerGui:FindFirstChild("WaterTestGui")
+if not ScreenGui then
+    ScreenGui = Instance.new("ScreenGui")
+    ScreenGui.Name = "WaterTestGui"
+    ScreenGui.ResetOnSpawn = false -- Kunci biar tombol tetap ada saat respawn
+    ScreenGui.Parent = PlayerGui
+end
+
+local Btn = ScreenGui:FindFirstChild("TestBtn") or Instance.new("TextButton", ScreenGui)
+Btn.Name = "TestBtn"
+Btn.Size = UDim2.new(0, 150, 0, 50)
+Btn.Position = UDim2.new(0.5, 0, 0.1, 0)
+Btn.Text = "instant kill: OFF"
+Btn.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+Btn.Draggable = true 
+
+local isTesting = false
+local connections = {}
+
+-- 2. Fungsi Utama
+local function toggleTest()
+    isTesting = not isTesting
+    local char = LocalPlayer.Character
+    if not char then return end
+    
+    if isTesting then
+        Btn.Text = "instant kill: ON"
+        Btn.BackgroundColor3 = Color3.fromRGB(50, 200, 50)
+        
+        -- Loop agar tetap bekerja meskipun karakter baru saja respawn
+        connections["Loop"] = RunService.Heartbeat:Connect(function(deltaTime)
+            local currentCharacter = LocalPlayer.Character
+            if not currentCharacter or not currentCharacter:FindFirstChild("HumanoidRootPart") then return end
+            
+            -- Anti Death
+            local humanoid = currentCharacter:FindFirstChild("Humanoid")
+            if humanoid then
+                humanoid:SetStateEnabled(Enum.HumanoidStateType.Dead, false)
+            end
+            
+            -- Noclip
+            for _, part in pairs(currentCharacter:GetChildren()) do
+                if part:IsA("BasePart") then
+                    part.CanCollide = false
+                end
+            end
+            
+            -- Gerakan Mulus (Tween-like)
+            local rootPart = currentCharacter.HumanoidRootPart
+            rootPart.Velocity = Vector3.new(0, 0, 0)
+            
+            local speedDown = 150 
+            local speedForward = 150
+            
+            rootPart.CFrame = rootPart.CFrame + Vector3.new(0, -speedDown * deltaTime, 0) + (rootPart.CFrame.LookVector * (speedForward * deltaTime))
+        end)
+        
+    else
+        Btn.Text = "instant kill: OFF"
+        Btn.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+        
+        if connections["Loop"] then
+            connections["Loop"]:Disconnect()
+            connections["Loop"] = nil
+        end
+        
+        -- Kembalikan collide
+        local charNow = LocalPlayer.Character
+        if charNow then
+            for _, part in pairs(charNow:GetChildren()) do
+                if part:IsA("BasePart") then part.CanCollide = true end
+            end
+            if charNow:FindFirstChild("Humanoid") then
+                charNow.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Dead, true)
+            end
+        end
+    end
+end
+
+Btn.MouseButton1Click:Connect(toggleTest)
